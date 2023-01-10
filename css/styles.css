@@ -1,0 +1,185 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 40px;
+  background-color: #EAEAEA;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  padding-top: 3%;
+}
+
+h2{
+  padding-bottom: 2%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h3{
+  font-size:1.75rem;
+  padding-top: 1%;
+  color: white;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+hr{
+  border-width:1px;
+  border-color: black;
+  margin: 0.01em;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar{
+  padding: 0 2.5rem;
+}
+
+.navbar-brand{
+  padding-right: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1rem;
+}
+
+.nav-link:hover{
+  background-color: #FF1E1E;
+}
+
+
+/* CAROUSEL */
+
+#headlines {
+  background-color: black;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 2% 15% 5%;
+}
+
+.carousel-image {
+  width: 70%;
+}
+
+
+/* NEWS CONTENT */
+
+.news-content {
+  background-color: white;
+  padding: 3%;
+  margin: 50px 100px;
+  border: 5px solid black;
+}
+
+.odd-image {
+  padding: 0 2% 1% 0;
+  float: left;
+  width: 50%;
+}
+
+.even-image{
+  padding: 0 0 1% 2%;
+  float: right;
+  width: 50%;
+}
+
+
+/* FOOTER */
+
+#footer{
+  background-color: #CD0404;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-image{
+  margin: 5px;
+}
+
+
+/* RESPONSIVE CODE */
+
+@media (max-width: 820px){
+  h1{
+    padding: 5% 2% 3%;
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 1.75rem;
+  }
+
+  h3{
+    padding: 10px 5px;
+    font-size: 1.15rem;
+  }
+
+  .navbar{
+    padding: 0 1.5rem;
+  }
+
+  .nav-link:hover{
+    background-color: #CD0404;
+    text-decoration: underline;
+  }
+
+  .carousel-image{
+    width: 100%;
+  }
+
+  .carousel-indicators{
+    margin: 5px;
+  }
+
+  .news-content{
+    margin: 50px;
+  }
+
+  .odd-image, .even-image{
+    float: none;
+    width:100%;
+    padding: 2% 1% 4%;
+  }
+
+  .footer-item{
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px){
+  .navbar{
+    padding: 0 .5rem;
+  }
+
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+
+  .news-content{
+    margin: 50px 10px;
+  }
+}
